@@ -1,5 +1,5 @@
 {
-	"SYSTEM.PROC.THREADS": {
+	"SYSTEM.PROC.THREADS2": {
 		"defaultAggregate": "max",
 		"defaultResolutionMS": 1000,
 		"description": "Number of process threads running. A single process can have many threads, but a thread can only have one process.",
