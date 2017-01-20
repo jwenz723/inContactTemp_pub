@@ -1,10 +1,18 @@
 {
-  "INC_WEB_API_CALLS_PER_SECOND": {
-    "defaultAggregate": "AVG",
-    "defaultResolutionMS": 1000,
-    "description": "API Calls Per Second",
-    "displayName": "API Calls/Second",
-    "displayNameShort": "API C/Sec",
-    "unit": "number"
-  }
+	"SYSTEM.PROC.THREADS": {
+		"defaultAggregate": "max",
+		"defaultResolutionMS": 1000,
+		"description": "Number of process threads running. A single process can have many threads, but a thread can only have one process.",
+		"displayName": "Number of Threads",
+		"displayNameShort": "Proc Threads",
+		"unit": "number"
+	},
+	"SYSTEM.PROC.TOTAL": {
+		"defaultAggregate": "max",
+		"defaultResolutionMS": 1000,
+		"description": "The number of processes running, including duplicates. Processes are programs that support applications.",
+		"displayName": "Total Number of Processes",
+		"displayNameShort": "Process Count",
+		"unit": "number"
+	}
 }
