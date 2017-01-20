@@ -3,16 +3,16 @@
 		"defaultAggregate": "max",
 		"defaultResolutionMS": 1000,
 		"description": "Number of process threads running. A single process can have many threads, but a thread can only have one process.",
-		"displayName": "Number of Threads",
-		"displayNameShort": "Proc Threads",
+		"displayName": "Number of Threads2",
+		"displayNameShort": "Proc Threads2",
 		"unit": "number"
 	},
-	"SYSTEM.PROC.TOTAL": {
+	"SYSTEM.PROC.TOTAL2": {
 		"defaultAggregate": "max",
 		"defaultResolutionMS": 1000,
 		"description": "The number of processes running, including duplicates. Processes are programs that support applications.",
-		"displayName": "Total Number of Processes",
-		"displayNameShort": "Process Count",
+		"displayName": "Total Number of Processes2",
+		"displayNameShort": "Process Count2",
 		"unit": "number"
 	}
 }

@@ -1,7 +1,7 @@
 {
 
   "name" : "inContactTemp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "meterVersionRequired" : "4.2.0-611",
   "unsupportedPlatforms" : [ ],
   "tags": "Windows",
@@ -10,6 +10,6 @@
   "command": "powershell -NoLogo -NonInteractive -Command Set-ExecutionPolicy RemoteSigned; .\\get-counters.ps1",
   "metrics": [
     "SYSTEM.PROC.THREADS2",
-    "SYSTEM.PROC.TOTAL"
+    "SYSTEM.PROC.TOTAL2"
   ]
 }
