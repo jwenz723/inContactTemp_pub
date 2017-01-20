@@ -1,0 +1,10 @@
+{
+  "INC_WEB_API_CALLS_PER_SECOND": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "API Calls Per Second",
+    "displayName": "API Calls/Second",
+    "displayNameShort": "API C/Sec",
+    "unit": "number"
+  }
+}
