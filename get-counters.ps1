@@ -33,7 +33,7 @@ while($true)
         $value = $s.CookedValue * $multipliers[$s.path]
         $metric_id = $metric_ids[($s.path).toUpper()]
         Write-Host $metric_id $value $hostname
-        [Console]::Error.WriteLine("$metric_id $value $hostname")
+        #[Console]::Error.WriteLine("$metric_id $value $hostname")
     }
     Start-Sleep -m 1000
 }
