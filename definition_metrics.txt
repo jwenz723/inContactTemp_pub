@@ -1,2 +1,2 @@
-test_SYSTEM.PROC.THREADS
-test_SYSTEM.PROC.TOTAL
+system.proc.threads
+system.proc.total

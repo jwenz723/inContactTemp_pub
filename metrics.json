@@ -1,5 +1,5 @@
 {
-	"test_SYSTEM.PROC.THREADS": {
+	"system.proc.threads": {
 		"defaultAggregate": "max",
 		"defaultResolutionMS": 1000,
 		"description": "Number of process threads running. A single process can have many threads, but a thread can only have one process.",
@@ -7,7 +7,7 @@
 		"displayNameShort": "Proc Threads",
 		"unit": "number"
 	},
-	"test_SYSTEM.PROC.TOTAL": {
+	"system.proc.total": {
 		"defaultAggregate": "max",
 		"defaultResolutionMS": 1000,
 		"description": "The number of processes running, including duplicates. Processes are programs that support applications.",
