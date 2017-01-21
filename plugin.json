@@ -8,5 +8,8 @@
   "description": "Extracts performance counters and sends them to pulse.",
   "icon": "icon.png",
   "command": "powershell -NoLogo -NonInteractive -Command Set-ExecutionPolicy RemoteSigned; .\\get-counters.ps1",
-  "metrics": []
+  "metrics": [
+  	"SYSTEM.PROC.THREADS",
+  	"SYSTEM.PROC.TOTAL"
+  ]
 }
